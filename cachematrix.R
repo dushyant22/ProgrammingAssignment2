@@ -47,3 +47,15 @@ cacheSolve <- function(aMatrix, ...) {
   m  
   ## Return a matrix that is the inverse of 'x'
 }
+
+
+#aMatrix = sample(1:16)
+#dim(aMatrix) = c(4,4)
+#f = makeCacheMatrix(aMatrix)
+#f$get()
+
+## Returns set Data 
+#cacheSolve(f)
+
+## Running again Returns Cached Data 
+#cacheSolve(f)
