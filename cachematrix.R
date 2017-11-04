@@ -1,7 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## Programming Assignment no 2. 
+
 ## Write a short comment describing this function
+## makeCacheMatrix 
 
 makeCacheMatrix <- function(aMatrix = matrix()) {
   m <- NULL 
@@ -25,6 +28,7 @@ makeCacheMatrix <- function(aMatrix = matrix()) {
 }
 
 
+## Programming Assignment no 2 
 ## Write a short comment describing this function
 
 cacheSolve <- function(aMatrix, ...) {
