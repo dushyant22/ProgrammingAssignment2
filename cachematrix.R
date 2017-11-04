@@ -3,8 +3,10 @@
 
 ## Programming Assignment no 2. 
 
-## Write a short comment describing this function
-## makeCacheMatrix 
+## Write a short comment describing this function 
+## makeCacheMatrix Sets a cached copy for the given Matrix. 
+## When desired, the cached copy is retrieved for the user, 
+## instead of, reapplying the function, to the unchanged file. 
 
 makeCacheMatrix <- function(aMatrix = matrix()) {
   m <- NULL 
@@ -28,8 +30,10 @@ makeCacheMatrix <- function(aMatrix = matrix()) {
 }
 
 
-## Programming Assignment no 2 
-## Write a short comment describing this function
+## Programming Assignment no 2  
+## Write a short comment describing this function 
+## This function set a cached copy of 
+##the inverse of the provided matrix in the memory. 
 
 cacheSolve <- function(aMatrix, ...) {
   m <- aMatrix$getInverted()
@@ -41,5 +45,5 @@ cacheSolve <- function(aMatrix, ...) {
   m <- solve(data)
   aMatrix$setInverted(m) 
   m  
-        ## Return a matrix that is the inverse of 'x'
+  ## Return a matrix that is the inverse of 'x'
 }
